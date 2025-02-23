@@ -1,8 +1,6 @@
 name: "build"
 on:                                                                                                                                                                                                    
-  push:                                                                                                                                                                                                
-    branches:                                                                                                                                                                                          
-      - sd-write-support 
+  workflow_dispatch:
 
 jobs:
   build:
